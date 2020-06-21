@@ -3,7 +3,7 @@
 header {
   grid-area: head;
   height: auto;
-  background-image: url("../images/headerBackground.jpg");
+  background-image: url("../images/headerBackground.JPG");
   background-size: cover;
 }
 
