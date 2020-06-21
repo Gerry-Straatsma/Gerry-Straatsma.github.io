@@ -1,0 +1,37 @@
+@import "text.css";
+
+header {
+  grid-area: head;
+  height: auto;
+}
+
+nav {
+  grid-area: nav;
+  height: 50px;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: foot;
+  height: 200px;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    'head'
+    'nav'
+    'main'
+    'foot';
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.mainContainer {
+  border: 1px solid blue;
+}
