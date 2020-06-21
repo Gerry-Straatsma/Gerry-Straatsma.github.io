@@ -3,11 +3,14 @@
 header {
   grid-area: head;
   height: auto;
+  background-image: url("../images/headerBackground.jpg");
+  background-size: cover;
 }
 
 nav {
-  grid-area: nav;
+  position: fixed;
   height: 50px;
+  width: 100%;
 }
 
 main {
@@ -23,7 +26,6 @@ body {
   display: grid;
   grid-template-areas:
     'head'
-    'nav'
     'main'
     'foot';
   position: absolute;
@@ -32,6 +34,25 @@ body {
   height: auto;
 }
 
-.mainContainer {
+.mainCont {
   border: 1px solid blue;
+}
+
+#titleCont {
+  position: relative;
+  width: auto;
+  margin-top: -40px;
+}
+
+#titleUnderline {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  height: 3px;
+  background-color: white;
+  padding: 0;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px #000000;
 }
