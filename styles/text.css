@@ -5,11 +5,19 @@ html {
   font-weight: 300;
 }
 
+h1 {
+  font-weight: 300;
+  margin-left: 40px;
+}
+
 #title {
   text-align: center;
   font-size: 5em;
-  font-weight: 300;
   text-shadow: 2px 2px 2px #000000;
   margin: 0px;
   color: white;
+}
+
+#home {
+
 }

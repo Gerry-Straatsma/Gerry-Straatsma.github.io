@@ -1,16 +1,11 @@
 @import "text.css";
+@import "nav.css";
 
 header {
   grid-area: head;
   height: auto;
   background-image: url("../images/headerBackground.JPG");
   background-size: cover;
-}
-
-nav {
-  position: fixed;
-  height: 50px;
-  width: 100%;
 }
 
 main {
@@ -35,7 +30,7 @@ body {
 }
 
 .mainCont {
-  border: 1px solid blue;
+  
 }
 
 #titleCont {

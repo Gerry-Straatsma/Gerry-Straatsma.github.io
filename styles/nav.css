@@ -1,0 +1,31 @@
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0.0);
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0px 100px 0px 10px;
+  padding: 0;
+}
+
+.navContent {
+  float: right;
+  padding: 15px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.navContent:hover {
+  color: #CFCFCF;
+}
+
+.active {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+#home {
+  float: left;
+}
