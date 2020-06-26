@@ -10,6 +10,11 @@ h1 {
   margin-left: 40px;
 }
 
+a:visited, a {
+  color: white;
+  text-decoration: none;
+}
+
 #title {
   text-align: center;
   font-size: 5em;
@@ -30,4 +35,8 @@ textarea.footer, input.footer {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: white;
+}
+
+.contactInfoText {
+  margin: 9px 0px;
 }

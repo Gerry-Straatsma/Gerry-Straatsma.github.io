@@ -40,11 +40,26 @@ textarea.footer, input.footer {
 
 .contactInfo {
   position: relative;
-  background-color: white;
+  background-image: linear-gradient(to right, rgba(216, 92, 21, 1), rgba(216, 92, 21, 0.3));
+  height: 65px;
   border-radius: 5px;
   margin-bottom: 5px;
   margin-left: 30px;
   padding: 5px;
+}
+
+.contactInfoText {
+  position: relative;
+  float: left;
+  color: white;
+}
+
+.contactInfoTextCont {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 40px;
+  margin-top: 12.5px;
 }
 
 .large {
@@ -55,17 +70,29 @@ textarea.footer, input.footer {
   width: 73px;
   height: 73px;
   float: left;
+  background-image: none;
 }
 
 .icon {
   position: relative;
+  float: left;
   width: 65px;
   height: 65px;
   margin: 0;
 }
 
 .iconSvg {
+  position: relative;
   width: 30px;
   height: 30px;
   padding: 17.5px;
+  fill: white;
+}
+
+.iconSvgLink {
+  position: relative;
+  fill: white;
+  width: 30px;
+  height: 30px;
+  margin: 17.5px;
 }
