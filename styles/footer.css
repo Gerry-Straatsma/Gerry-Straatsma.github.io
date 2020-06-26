@@ -30,6 +30,7 @@ textarea.footer, input.footer {
   margin-bottom: 5px;
   background-color: #404040;
   width: 600px;
+  resize: none;
 }
 
 #submitButton {
