@@ -44,16 +44,28 @@ textarea.footer, input.footer {
   border-radius: 5px;
   margin-bottom: 5px;
   margin-left: 30px;
+  padding: 5px;
 }
 
 .large {
   width: 300px;
-  height: 73px;
 }
 
 .small {
   width: 73px;
   height: 73px;
   float: left;
-  margin-left: 35px;
+}
+
+.icon {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  margin: 0;
+}
+
+.iconSvg {
+  width: 30px;
+  height: 30px;
+  padding: 17.5px;
 }
