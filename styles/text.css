@@ -21,3 +21,13 @@ h1 {
 #home {
 
 }
+
+.footer {
+  color: #D85C15;
+}
+
+textarea.footer, input.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: white;
+}

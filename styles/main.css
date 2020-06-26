@@ -1,5 +1,6 @@
 @import "text.css";
 @import "nav.css";
+@import "footer.css";
 
 header {
   grid-area: head;
@@ -14,7 +15,7 @@ main {
 
 footer {
   grid-area: foot;
-  height: 200px;
+  background-color: black;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 }
 
 .mainCont {
-  
+
 }
 
 #titleCont {
