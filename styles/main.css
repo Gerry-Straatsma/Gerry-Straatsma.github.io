@@ -1,6 +1,8 @@
 @import "text.css";
 @import "nav.css";
 @import "footer.css";
+@import "scrollbar.css";
+@import "mainContent.css";
 
 header {
   grid-area: head;
@@ -28,10 +30,6 @@ body {
   margin: 0;
   width: 100%;
   height: auto;
-}
-
-.mainCont {
-
 }
 
 #titleCont {

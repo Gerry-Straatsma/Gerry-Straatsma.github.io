@@ -7,7 +7,14 @@ html {
 
 h1 {
   font-weight: 300;
-  margin-left: 40px;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h2.skillName {
+  text-align: center;
 }
 
 a:visited, a {
@@ -23,7 +30,7 @@ a:visited, a {
   color: white;
 }
 
-#home {
+#homeOption {
 
 }
 

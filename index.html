@@ -6,37 +6,125 @@
     <script src="scripts/main.js"></script>
   </head>
   <body>
-    <header>
+    <header id="header">
       <div id="titleCont">
         <h1 id="title">Gerry Straatsma</h1>
         <div id="titleUnderline">
         </div>
       </div>
     </header>
-    <nav class="mainCont">
+    <nav id="navCont">
       <ul id="nav">
-        <li class="navContent" id="home">Gerry Straatsma</li>
-        <li class="navContent">About</li>
-        <li class="navContent">Resume</li>
-        <li class="navContent active">Projects</li>
-        <li class="navContent">Skills</li>
+        <li class="navContent" id="homeOption"><a href="#header">Gerry Straatsma</a></li>
+        <li class="navContent" id="aboutOption"><a href="#about">About</a></li>
+        <li class="navContent" id="resumeOption"><a href="#resume">Resume</a></li>
+        <li class="navContent" id="projectsOption"><a href="#projects">Projects</a></li>
+        <li class="navContent" id="skillsOption"><a href="#skills">Skills</a></li>
       </ul>
     </nav>
     <main class="mainCont">
-      <div id="Skills">
-        <h1>Skills</h1>
+      <div id="skills"></div>
+      <h1>Skills</h1>
+      <h2>Languages</h2>
+      <div class="skillsCont">
+        <div class="skillCont">
+          <div class="skillIcon">
+            <svg class="bi bi-code-slash skillSvg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0zm-.999-3.124a.5.5 0 0 1 .33.625l-4 13a.5.5 0 0 1-.955-.294l4-13a.5.5 0 0 1 .625-.33z"/>
+            </svg>
+          </div>
+          <div class="skillName">
+            <h2 class="skillName">HTML / CSS / JS</h2>
+          </div>
+        </div>
+        <div class="skillCont">
+          <div class="skillIcon">
+            <svg class="bi bi-braces skillSvg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+            </svg>
+          </div>
+          <div class="skillName">
+            <h2 class="skillName">Java</h2>
+          </div>
+        </div>
+        <div class="skillCont">
+          <div class="skillIcon">
+            <svg class="bi bi-braces skillSvg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+            </svg>
+          </div>
+          <div class="skillName">
+            <h2 class="skillName">Python</h2>
+          </div>
+        </div>
+        <div class="skillCont">
+          <div class="skillIcon">
+            <svg class="bi bi-braces skillSvg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+            </svg>
+          </div>
+          <div class="skillName">
+            <h2 class="skillName">C++</h2>
+          </div>
+        </div>
+        <div class="skillCont">
+          <div class="skillIcon">
+            <svg class="bi bi-braces skillSvg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+            </svg>
+          </div>
+          <div class="skillName">
+            <h2 class="skillName">SQL</h2>
+          </div>
+        </div>
       </div>
-      <div id="projects">
-        <h1>Projects</h1>
+      <h2>Frameworks</h2>
+      <div class="skillsCont">
+        <div class="skillCont">
+          <div class="skillIcon">
+            <svg class="bi bi-code-slash skillSvg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0zm-.999-3.124a.5.5 0 0 1 .33.625l-4 13a.5.5 0 0 1-.955-.294l4-13a.5.5 0 0 1 .625-.33z"/>
+            </svg>
+          </div>
+          <div class="skillName">
+            <h2 class="skillName">Node.JS</h2>
+          </div>
+        </div>
+        <div class="skillCont">
+          <div class="skillIcon">
+            <svg class="bi bi-braces skillSvg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+            </svg>
+          </div>
+          <div class="skillName">
+            <h2 class="skillName">Spring Boot</h2>
+          </div>
+        </div>
+        <div class="skillCont">
+          <div class="skillIcon">
+            <svg class="bi bi-braces skillSvg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+            </svg>
+          </div>
+          <div class="skillName">
+            <h2 class="skillName">Thymeleaf</h2>
+          </div>
+        </div>
       </div>
-      <div id="resume">
-        <h1>Resume</h1>
+      <div id="projects"></div>
+      <h1>Projects</h1>
+      <div id="projectsCont">
       </div>
-      <div id="about">
-        <h1>About</h1>
+      <div id="resume"></div>
+      <h1>Resume</h1>
+      <div id="resumeCont">
+      </div>
+      <div id="about"></div>
+      <h1>About</h1>
+      <div id="aboutCont">
       </div>
     </main>
-    <footer class="mainCont">
+    <footer>
       <div id="footerCont">
         <div id="contactCont">
           <h1 class="footer">Contact:</h1>
