@@ -34,7 +34,8 @@ function getIDLocations(scroll) {
 
   if (skillsOffset <= scroll) {
     skills.classList.add("active");
-    if (projectsOffset <= scroll) {
+    if (projectsOffset - 1 <= scroll) {
+      skills.classList.remove("active");
       projects.classList.add("active");
       if (resumeOffset <= scroll) {
         resume.classList.add("active");

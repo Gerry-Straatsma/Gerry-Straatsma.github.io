@@ -43,7 +43,29 @@
 }
 
 #projectsCont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+.projectCont {
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #E1E1E1;
+}
+
+.projectImage {
+  width: 100%;
+  height: 175px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.projectCaption {
+  width: 100%;
 }
 
 #resumeCont {
