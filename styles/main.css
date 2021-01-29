@@ -82,8 +82,6 @@ li.nav a.nav {
 
 .active {
   border-bottom: 4px solid #6886bf;
-  /*text-decoration: underline !important;
-  text-decoration-color: #6886bf !important; */
 }
 
 a.nav {
