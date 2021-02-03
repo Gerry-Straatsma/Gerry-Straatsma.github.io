@@ -10,9 +10,9 @@
     <nav>
       <ul id="nav">
         <li class="nav"><a id="homeOption" class="nav active" href="#top">Gerry Straatsma</a></li>
+        <li class="nav"><a id="resumeOption" class="nav" href="#resume">Resume</a></li>
         <li class="nav" class="last"><a id="projectsOption" class="nav" href="#projects">Projects</a></li>
         <li class="nav"><a id="skillsOption" class="nav" href="#skills">Skills</a></li>
-        <li class="nav"><a id="resumeOption" class="nav" href="#resume">Resume</a></li>
         <li class="nav"><a id="aboutOption" class="nav" href="#about">About</a></li>
       </ul>
     </nav>
@@ -25,9 +25,10 @@
       <div id="main-cont">
         <section id="about" class="anchor">
           <h1>About</h1>
-        </section>
-        <section id="resume" class="anchor">
-          <h1>Resume</h1>
+          <article id=about-article-cont>
+            <img id="portrait" src="images/portrait.jpg" alt="Gerry Straatsma Portrait">
+            <p id="about-text">this is test text</p>
+          </article>
         </section>
         <section id="skills" class="anchor">
           <h1>Skills</h1>
@@ -37,32 +38,43 @@
             <section class="skill-section">
               <h1 class="skill-title">HTML/CSS/JS</h1>
               <h2 class="skill-level">Expert</h2>
-              <p class="skill-desc">description of skill</p>
+              <p class="skill-desc">I have been working with HTML since 2014 and have learned a lot about it.
+                I have taken multiple courses on web design.</p>
             </section>
             <section class="skill-section">
               <h1 class="skill-title">Java</h1>
               <h2 class="skill-level">Expert</h2>
-              <p class="skill-desc">description of skill</p>
+              <p class="skill-desc">Java is the language I know the most about. I have done many school
+                projects with Java code and I have done many projects in my free time to exspand my
+                knowledge. One of my most recent projects used JavaFX.</p>
             </section>
             <section class="skill-section">
               <h1 class="skill-title">C#</h1>
               <h2 class="skill-level">Proficient</h2>
-              <p class="skill-desc">description of skill</p>
+              <p class="skill-desc">I have experience with making GUI interfaces using WPF and others.
+              A have also worked on creating my own game using Unity. Along with makeing console
+              applications for school assignments.</p>
             </section>
             <section class="skill-section">
               <h1 class="skill-title">Python</h1>
               <h2 class="skill-level">Proficient</h2>
-              <p class="skill-desc">description of skill</p>
+              <p class="skill-desc">I have used python to learn sorting algorithms.
+                I have also done many assignments to strengthen my knowledge. Most
+                recently I have used Python to make a few Discord bots for my server.</p>
             </section>
             <section class="skill-section">
               <h1 class="skill-title">SQL</h1>
               <h2 class="skill-level">Competent</h2>
-              <p class="skill-desc">description of skill</p>
+              <p class="skill-desc">I know most of the basics of SQL. I am currently
+                working on expanding my knowledge. I am curretly using SQL in my
+                <a class="standard" href="">Inventory System</a> project.</p>
             </section>
             <section class="skill-section">
               <h1 class="skill-title">C++</h1>
               <h2 class="skill-level">Advanced Beginner</h2>
-              <p class="skill-desc">description of skill</p>
+              <p class="skill-desc">I have learned the basics enough to do small
+                projects but have not done any large projects using C++. I should be
+                able to pick it up quickly if I need to.</p>
             </section>
           </div>
           <hr></hr>
@@ -71,82 +83,87 @@
             <section class="skill-section">
               <h1 class="skill-title">Spring Boot</h1>
               <h2 class="skill-level">Proficient</h2>
-              <p class="skill-desc">description of skill</p>
+              <p class="skill-desc">I have done a whole course on Spring Boot and who it works.
+              I have experience using the H2 Database, Lombok, Spring Web, Spring Security, and
+              Thymeleaf dependencies.</p>
             </section>
             <section class="skill-section">
               <h1 class="skill-title">Thymeleaf</h1>
               <h2 class="skill-level">Proficient</h2>
-              <p class="skill-desc">description of skill</p>
-            </section>
-            <section class="skill-section">
-              <h1 class="skill-title">Node.JS</h1>
-              <h2 class="skill-level">Competent</h2>
-              <p class="skill-desc">description of skill</p>
-            </section>
-            <section class="skill-section">
-              <h1 class="skill-title">Electron</h1>
-              <h2 class="skill-level">Competent</h2>
-              <p class="skill-desc">description of skill</p>
+              <p class="skill-desc">I have used Thymeleaf with the help of Spring Boot to make web
+                based apps that use Java as a backbone. I used Thymeleaf to display and update SQL
+                tables.</p>
             </section>
           </div>
         </section>
         <section id="projects" class="anchor">
           <h1>Projects</h1>
-          <p>A look at some projects I have compleated or are working on</p>
+          <p>A look at some projects I have completed or are working on</p>
           <div class="section-cont">
             <section class="proj-section">
               <div class="proj-img-cont">
-                <img class="proj-img" src="images/placeholder.jpg" alt="">
+                <img class="proj-img" src="images/project-thumbnails/InventorySystem(SpringBoot)-thumbnail.png" alt="Inventory System v2">
               </div>
-              <h1 class="proj-title">GSLauncher</h1>
-              <h2 class="proj-status">project status</h2>
-              <p class="proj-desc">description of project</p>
+              <h1 class="proj-title">Inventory System v2</h1>
+              <h2 class="proj-status">In Progress</h2>
+              <p class="proj-desc">A more complex inventory system designed to also track orders.
+                It was made using Spring Boot</p>
             </section>
             <section class="proj-section">
               <div class="proj-img-cont">
-                <img class="proj-img" src="images/placeholder.jpg" alt="">
-              </div>
-              <h1 class="proj-title">Inventory System</h1>
-              <h2 class="proj-status">project status</h2>
-              <p class="proj-desc">description of project</p>
-            </section>
-            <section class="proj-section">
-              <div class="proj-img-cont">
-                <img class="proj-img" src="images/placeholder.jpg" alt="">
+                <img class="proj-img" src="images/placeholder-image.jpg" alt="">
               </div>
               <h1 class="proj-title">Personal Website</h1>
-              <h2 class="proj-status">project status</h2>
-              <p class="proj-desc">description of project</p>
+              <h2 class="proj-status">Complete</h2>
+              <p class="proj-desc">My personal site to showcase my skills and who I am.</p>
             </section>
             <section class="proj-section">
               <div class="proj-img-cont">
-                <img class="proj-img" src="images/placeholder.jpg" alt="">
+                <img class="proj-img" src="images/project-thumbnails/GSLauncher-thumbnail.png" alt="GSLauncher">
               </div>
-              <h1 class="proj-title">Time Manager</h1>
-              <h2 class="proj-status">project status</h2>
-              <p class="proj-desc">description of project</p>
+              <h1 class="proj-title">GSLauncher</h1>
+              <h2 class="proj-status">Complete</h2>
+              <p class="proj-desc">Designed to launch applications and games with some extra features.</p>
             </section>
             <section class="proj-section">
               <div class="proj-img-cont">
-                <img class="proj-img" src="images/placeholder.jpg" alt="">
+                <img class="proj-img" src="images/project-thumbnails/InventorySystem(JavaFX)-thumbnail.png" alt="Inventory System v1">
               </div>
-              <h1 class="proj-title">title</h1>
-              <h2 class="proj-status">project status</h2>
-              <p class="proj-desc">description of project</p>
-            </section>
-            <section class="proj-section">
-              <div class="proj-img-cont">
-                <img class="proj-img" src="images/placeholder.jpg" alt="">
-              </div>
-              <h1 class="proj-title">title</h1>
-              <h2 class="proj-status">project status</h2>
-              <p class="proj-desc">description of project</p>
+              <h1 class="proj-title">Inventory System v1</h1>
+              <h2 class="proj-status">Complete</h2>
+              <p class="proj-desc">Made to be able to keep track of inventory. It was created with JavaFX.</p>
             </section>
           </div>
+        </section>
+        <section id="resume" class="anchor">
+          <h1>Resume</h1>
         </section>
       </div>
     </main>
     <footer>
+      <div id="footer-cont">
+        <div class="contact-cont">
+          <section class="contact-info">
+            <img class="contact-icon" src="images/email-icon.png" alt="">
+            <div class="contact-info-cont">
+              <p class="contact-info-text"><a href="mailto:gerrystraatsma@hotmail.ca">gerrystraatsma@hotmail.ca</a></p>
+            </div>
+          </section>
+          <section class="contact-info">
+            <img class="contact-icon correct" src="images/phone-icon.png" alt="">
+            <div class="contact-info-cont">
+              <p class="contact-info-text">905-782-8263</p>
+            </div>
+          </section>
+          <section class="contact-info">
+            <img class="contact-icon" src="images/location-icon.png" alt="">
+            <div class="contact-info-cont">
+              <p class="contact-info-text">Toronto, Canada</p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <p id="copyright">Copyright &#169; Gerry Straatsma, 2021</p>
     </footer>
   </body>
 </html>

@@ -23,15 +23,15 @@ function getIDLocations(scroll) {
 
   if (aboutOffset <= scroll) {
     about.classList.add("active");
-    if (resumeOffset - 1 <= scroll) {
+    if (skillsOffset - 1 <= scroll) {
       about.classList.remove("active");
-      resume.classList.add("active");
-      if (skillsOffset <= scroll) {
-        resume.classList.remove("active");
-        skills.classList.add("active");
-        if (projectsOffset <= scroll) {
-          skills.classList.remove("active");
-          projects.classList.add("active");
+      skills.classList.add("active");
+      if (projectsOffset <= scroll) {
+        skills.classList.remove("active");
+        projects.classList.add("active");
+        if (resumeOffset <= scroll) {
+          projects.classList.remove("active");
+          resume.classList.add("active");
         }
       }
     }
