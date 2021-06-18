@@ -5,6 +5,11 @@ html {
   font-weight: 300;
 }
 
+object {
+  width: 900px;
+  height: 800px;
+}
+
 h1 {
   font-size: 2em;
   font-weight: 300;
@@ -150,6 +155,7 @@ a.standard {
   margin: auto 0px auto 50px;
   width: 475px;
   height: auto;
+  text-align: justify;
 }
 
 .section-cont {
@@ -236,6 +242,10 @@ a.standard {
   transform: translate(-50%, -50%);
 }
 
+.resume {
+  width: 800px;
+}
+
 .contact-cont {
   position: relative;
   display: flex;
@@ -281,4 +291,79 @@ a.standard {
   color: white;
   font-size: 0.75em;
   text-align: center;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+#project-disp {
+  position: fixed;
+  display: none;
+  margin: 0px;
+  width: 900px;
+  height: 800px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  border-radius: 10px;
+}
+
+#project-close {
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  font-size: 2em;
+  font-weight: 500;
+  right: 10px;
+  margin: 0px;
+}
+
+#project-close:hover {
+  color: red;
+}
+
+#project-title {
+  margin: 10px;
+  text-align: center;
+}
+
+#project-img {
+  margin: 10px;
+  margin-top: 0px;
+  width: 880px;
+}
+
+#project-text {
+  margin: 0px 10px;
+  height: 210px;
+  text-align: justify;
+  overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6886bf;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

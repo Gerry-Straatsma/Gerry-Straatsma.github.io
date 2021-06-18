@@ -2,11 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="keywords" content="Gerry, Straatsma, Java, C#, Python, SQL, Spring Boot, Thymeleaf, Resume">
+    <meta name="author" content="Gerry Straatsma">
+    <meta name="description" content="My name is Gerry Straatsma, I grew up and still live in Brampton
+     Ontario. I have always had an interest in computers and technology. That interest only grew once I
+     started to learn how code works when I was 14.">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/main.js" charset="utf-8"></script>
     <title>Gerry Straatsma</title>
   </head>
   <body>
+    <div id="overlay">
+    </div>
+    <section id="project-disp">
+      <a id="project-close" onclick="closeDisplayProject()">X</a>
+    </section>
     <nav>
       <ul id="nav">
         <li class="nav"><a id="homeOption" class="nav active" href="#top">Gerry Straatsma</a></li>
@@ -27,7 +38,17 @@
           <h1>About</h1>
           <article id=about-article-cont>
             <img id="portrait" src="images/portrait.jpg" alt="Gerry Straatsma Portrait">
-            <p id="about-text">this is test text</p>
+            <p id="about-text">My name is Gerry Straatsma, I grew up and still live in Brampton
+              Ontario. I have always had an interest in computers and technology. That interest
+              only grew once I started to learn how code works when I was 14. I started by learning
+              HTML and CSS. Creating my first websites helped me by teaching me the basics of
+              debugging code and how to research about a language. Later I was introduced to Java
+              in my first computer science class. When I was starting to learn Java, my interest
+              grew into a passion. I wanted to learn and see what I was capable of and push my limits.
+              I have always like pushing myself by working on small or large projects that push me to
+              learn more in order to get to the end of the project. Starting a project while knowing I
+              have no idea how one aspect is supposed to work is my favourite thing because it will
+              force me to expand my knowledge. </p>
           </article>
         </section>
         <section id="skills" class="anchor">
@@ -100,24 +121,24 @@
           <h1>Projects</h1>
           <p>A look at some projects I have completed or are working on</p>
           <div class="section-cont">
-            <section class="proj-section">
+            <section class="proj-section" onclick="displayProject('project-pages/inventory-system-v2.html')">
               <div class="proj-img-cont">
                 <img class="proj-img" src="images/project-thumbnails/InventorySystem(SpringBoot)-thumbnail.png" alt="Inventory System v2">
               </div>
               <h1 class="proj-title">Inventory System v2</h1>
               <h2 class="proj-status">In Progress</h2>
               <p class="proj-desc">A more complex inventory system designed to also track orders.
-                It was made using Spring Boot</p>
+                It was made using Spring Boot.</p>
             </section>
-            <section class="proj-section">
+            <section class="proj-section" onclick="displayProject('project-pages/personal-website.html')">
               <div class="proj-img-cont">
-                <img class="proj-img" src="images/placeholder-image.jpg" alt="">
+                <img class="proj-img" src="images/project-thumbnails/PersonalWebsite-thumbnail.png" alt="GStraatsma.com">
               </div>
               <h1 class="proj-title">Personal Website</h1>
               <h2 class="proj-status">Complete</h2>
               <p class="proj-desc">My personal site to showcase my skills and who I am.</p>
             </section>
-            <section class="proj-section">
+            <section class="proj-section" onclick="displayProject('project-pages/gslauncher.html')">
               <div class="proj-img-cont">
                 <img class="proj-img" src="images/project-thumbnails/GSLauncher-thumbnail.png" alt="GSLauncher">
               </div>
@@ -125,7 +146,7 @@
               <h2 class="proj-status">Complete</h2>
               <p class="proj-desc">Designed to launch applications and games with some extra features.</p>
             </section>
-            <section class="proj-section">
+            <section class="proj-section" onclick="displayProject('project-pages/inventory-system-v1.html')">
               <div class="proj-img-cont">
                 <img class="proj-img" src="images/project-thumbnails/InventorySystem(JavaFX)-thumbnail.png" alt="Inventory System v1">
               </div>
@@ -137,6 +158,9 @@
         </section>
         <section id="resume" class="anchor">
           <h1>Resume</h1>
+          <p>Resume last updated on Feb 04, 2021.</p>
+          <p><a class="standard" href="documents/GerryStraatsma-Resume(2021).pdf" target="_blank">Click here to view resume in a new tab</a></p>
+          <embed src="documents/GerryStraatsma-Resume(2021).pdf" width="100%" height="1000px"/>
         </section>
       </div>
     </main>
@@ -163,7 +187,7 @@
           </section>
         </div>
       </div>
-      <p id="copyright">Copyright &#169; Gerry Straatsma, 2021</p>
+      <p id="copyright">Copyright &#169; Gerry Straatsma, 2021 (Last Updated YYYY/MM/DD)</p>
     </footer>
   </body>
 </html>

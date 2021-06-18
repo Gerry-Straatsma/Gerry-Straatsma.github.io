@@ -40,4 +40,16 @@ function getIDLocations(scroll) {
   }
 }
 
+function displayProject(test) {
+  document.getElementById("project-disp").style.display = "block";
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("project-disp").innerHTML += '<object type="text/html" data="' + test + '"></object>';
+}
+
+function closeDisplayProject() {
+  document.getElementById("project-disp").style.display = "none";
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("project-disp").innerHTML ='<a id="project-close" onclick="closeDisplayProject()">X</a>';
+}
+
 window.onscroll = function() {scroll()};
